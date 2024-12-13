@@ -1,0 +1,375 @@
+body{
+    background-color: #FEFDF9;
+}
+.contenedor-grid{
+    width: 375px;
+    height: 1900px;
+    
+    display: grid;
+    font-family: "letra";
+    grid-template-areas: 
+    "area1"
+    "area2"
+    "area3"
+    "area4"
+    "area5"
+    "area6"
+    "area7"
+    "area8";
+}
+.area1{
+    grid-area: area1;
+    
+    margin-top: 10px;
+    
+    .logo{
+        width: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .hamburguesa{
+        width: 30px;
+        margin-left: 280px;
+    }
+    .menu{
+        display: none;
+    }
+
+}
+.area2{
+    grid-area: area2;
+    height: 280px;
+    
+    text-align: center;
+    .imagen-area2{
+        width: 330px;
+        height: 280px;
+        
+    }
+    .imagen-escritorio{
+        display: none;
+    }
+}
+.area3{
+    grid-area: area3;
+    
+    height: 150px;
+    text-align: start;
+    .texto-area3{
+        margin-right: 130px;
+        margin-left: 20px;
+    }
+
+}
+.area4{
+    grid-area: area4;
+    
+    height: 200px;
+    .texto-area4{
+        margin-left: 20px;
+        margin-right: 30px;
+        color:#89868D
+
+    }
+    .contenedor-boton-area4{
+        margin-left: 20px;
+        .hover-button{
+            height: 40px;
+            width: 150px;
+            background-color: #F35D4F;
+            font-weight: 700;
+        }
+        
+    }
+    
+
+}
+.area5{
+    grid-area: area5;
+    
+    height: 350px;
+    width: 335px;
+    margin-left: 20px;
+    background-color: #00001A;
+
+    .titulo-area5{
+        color:#D8AC6B;
+        margin-left: 20px;
+        
+
+    }
+    .primer-parrafo-area5{
+        color:white;
+        margin-left: 20px;
+
+    }
+    .titulo-primer-parrafo{
+        font-size: 20px;
+    }
+    .primer-parrafo{
+        color: #57586D;
+        font-size: 14px;
+    }
+    .segundo-parrafo-area5{
+        color:white;
+    }
+    .titulo-segundo-parrafo{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .segundo-parrafo{
+        color: #57586D;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .tercer-parrafo-area5{
+        color:white;
+        margin-left: 20px;
+    }
+    .titulo-tercer-parrafo{
+        font-size: 20px;
+    }
+    .tercer-parrafo{
+        color: #57586D;
+        font-size: 14px;
+    }
+    
+
+}
+.area6{
+    grid-area: area6;
+    
+    height: 105px;
+    display: flex;
+    .retropc{
+        width: 80px;
+        height: 105px;
+        margin-left: 20px;
+    }
+    .texto-completo-area6{
+        margin-left: 20px;
+    }
+    .titulo-area6{
+        color:#EB5E54;
+        margin-bottom: -10px;
+        margin-top: -8px;
+    }
+    .subtitulo-area6{
+        color: #030011;
+        font-size: 18px;
+       
+    }
+    .texto-area6{
+        color: #6D6D77;
+        font-size: 13px;
+    }
+
+
+}
+.area7{
+    grid-area: area7;
+    
+    height: 105px;
+    display: flex;
+    .laptops{
+        width: 80px;
+        height: 105px;
+        margin-left: 20px;
+    }
+    .texto-completo-area7{
+        margin-left: 20px;
+    }
+    .titulo-area7{
+        color:#EB5E54;
+        margin-bottom: -10px;
+        margin-top: -8px;
+    }
+    .subtitulo-area7{
+        color: #030011;
+        font-size: 18px;
+    }
+    .texto-area7{
+        color: #6D6D77;
+        font-size: 13px;
+    }
+
+}
+.area8{
+    grid-area: area8;
+    
+    height: 105px;
+    display: flex;
+    .gaming{
+        width: 80px;
+        height: 105px;
+        margin-left: 20px;
+    }
+    .texto-completo-area8{
+        margin-left: 20px;
+    }
+    .titulo-area8{
+        color:#EB5E54;
+        margin-bottom: -10px;
+        margin-top: -8px;
+    }
+    .subtitulo-area8{
+        color: #030011;
+        font-size: 18px;
+    }
+    .texto-area8{
+        color: #6D6D77;
+        font-size: 13px;
+    }
+
+}
+@font-face {
+    font-family: "letra";
+    src: url(src/assets/Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: #FEFDF9;
+        justify-items: center;
+
+    }
+    .contenedor-grid{
+        width: 1440px;
+        height: 1024px;
+        display: grid;
+        grid-template-areas: 
+        "area1 area1 area1"
+        "area2 area2 area5"
+        "area3 area4 area5"
+        "area6 area7 area8";
+    }
+    .area1{
+        display: flex;
+        height: 100px;
+        align-items: end;
+        
+        .logo{
+            width: 50px;
+            margin-left: 20px;
+            margin-top: ;
+            display: flex;
+            
+        }
+        .hamburguesa{
+            display: none;
+        }
+        .menu{
+            display: flex;
+            margin-left: 980px;
+            .boton{
+                height: 20px;
+                margin-top: 20px;
+                border: none;
+                background-color: #FEFDF9;
+                font-size: 15px;    
+            }
+            .boton:hover{
+                color: #EB5E54;
+        } 
+
+    }
+}
+    .area2{
+        
+        margin-left: 20px;
+        margin-top: -50px;
+        .imagen-area2{
+            display: none;
+        }
+        .imagen-escritorio{
+            display: grid;
+            width: 850px;
+            height: 280px;
+        }
+        
+
+    }
+    .area3{
+        width: 400px;
+        height: 200px;
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: -150px;
+
+    }
+    .area4{
+        width: 400px;
+        height: 200px;
+        margin-top: -150px;
+
+    }
+    .area5{
+        height: 450px;
+        margin-top: -50px;
+        .titulo-area5{
+            color:#D8AC6B;
+            margin-left: 20px;
+            font-size: 20px;
+            
+    
+        }
+        .primer-parrafo-area5{
+            color:white;
+            margin-left: 20px;
+            
+
+    
+        }
+        .titulo-primer-parrafo{
+            font-size: 23px;
+
+        }
+        .primer-parrafo{
+            color: #57586D;
+            font-size: 16px;
+        }
+        .segundo-parrafo-area5{
+            color:white;
+            margin-top: 20px;
+        }
+        .titulo-segundo-parrafo{
+            margin-left: 20px;
+            font-size: 23px;
+        }
+        .segundo-parrafo{
+            color: #57586D;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        .tercer-parrafo-area5{
+            color:white;
+            margin-left: 20px;
+        }
+        .titulo-tercer-parrafo{
+            font-size: 23px;
+        }
+        .tercer-parrafo{
+            color: #57586D;
+            font-size: 16px;
+        }
+        
+
+    }
+    .area6{
+        width: 350px;
+        height: 105px;
+        margin-top: -100px;
+
+    }
+    .area7{
+        width: 350px;
+        margin-top: -100px;
+
+    }
+    .area8{
+        width: 350px;
+        margin-top: -100px;
+
+    }
+
+}
