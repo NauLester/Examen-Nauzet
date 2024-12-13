@@ -251,7 +251,6 @@ body{
         .logo{
             width: 50px;
             margin-left: 20px;
-            margin-top: ;
             display: flex;
             
         }
@@ -301,6 +300,12 @@ body{
         width: 400px;
         height: 200px;
         margin-top: -150px;
+        .hover-button{
+            border: none;
+        }
+        .hover-button:hover{
+            background-color: #E0A34A;
+        }
 
     }
     .area5{
@@ -332,6 +337,15 @@ body{
             color:white;
             margin-top: 20px;
         }
+        .titulo-primer-parrafo:hover{
+            color:#E0A34A;
+        }
+        .titulo-segundo-parrafo:hover{
+            color:#E0A34A;
+        }
+        .titulo-tercer-parrafo:hover{
+            color:#E0A34A;
+        }
         .titulo-segundo-parrafo{
             margin-left: 20px;
             font-size: 23px;
@@ -359,8 +373,8 @@ body{
         width: 350px;
         height: 105px;
         margin-top: -100px;
-
     }
+
     .area7{
         width: 350px;
         margin-top: -100px;
@@ -370,6 +384,15 @@ body{
         width: 350px;
         margin-top: -100px;
 
+    }
+    .subtitulo-area6:hover{
+        color: #EB5E54;
+    }
+    .subtitulo-area7:hover{
+        color: #EB5E54;
+    }
+    .subtitulo-area8:hover{
+        color: #EB5E54;
     }
 
 }
